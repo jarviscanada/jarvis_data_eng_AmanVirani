@@ -76,6 +76,7 @@ This script contains queries to solve the following business cases:
 ## Database Modeling
 Describe the schema of each table using markdown table syntax (do not put any sql code)
 - `host_info`
+
  | Properties  | Type | Constraints  | 
  | ------------- | ------------- | ------------- | 
  |  id | Serial  | PRIMARY KEY  | 
@@ -89,7 +90,8 @@ Describe the schema of each table using markdown table syntax (do not put any sq
  | timestamp  | timestamp | NOT NULL  |
 
 - `host_usage`
- | Properties  | Type          | Constraint |
+
+ | Properties  | Type | Constraint |
  | ------------| ------------- | ---------- |
  | timestamp   | timestamp  | NOT NULL  |
  | host_id  | SERIAL | FOREIGN KEY , NOT NULL  |
