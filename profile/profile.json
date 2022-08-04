@@ -1,0 +1,144 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "C++ Training Certificate",
+        "GPA: 8.20/9.0"
+      ],
+      "degree": "Bachelor of Computer Application",
+      "department": "Computer Science",
+      "duration": "2016-2019",
+      "school_name": "Uka Tarsadia University"
+    },
+    {
+      "awards_achievements": [
+        "Graduated with High Distinction",
+        "GPA 3.88/4.0"
+      ],
+      "degree": "Web Design and Development",
+      "department": "web design",
+      "duration": "2020-2021",
+      "school_name": "Conestoga College"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AmanVirani",
+  "highlighted_projects": [
+    {
+      "description": "Developed a user-friendly movie streaming web application. Using Firebase to store the data in database. ReactJS and Redux were used to code the application. Used TMDI API to fetch the movies and TV shows. Stripe was used as payment for subscription. Management of project done through Agile development techniques using Trello.",
+      "name": "AVN Streamify"
+    },
+    {
+      "description": "For most people, house hunting feels like an extreme sport. You look at, what feels like, a million different homes only to pick them all apart without finding the one. Created a Splash Activity highlighting the logo and Recycler View to list the products from SQLite in a CardView. Used Fragments to display the product information. The basic operations include Register/Login and storing in firebase real-time database. The main operation includes Adding Room Post, Favourite Post and maintaining the images and data through the real-time database.",
+      "name": "Room Rental Android System"
+    },
+    {
+      "description": "if you're wondering how long it takes to buy a house, the answer is it depends. On average, a homebuyer can spend a few days to go through the initial pre-approval process, anywhere from a few weeks to a few months shopping for the right home, and 30 to 45 days to close the deal. Finding Homes makes it a lot easier for you. AJAX, jQuery, JavaScript also used in the Front-End.",
+      "name": "Finding Homes - CORE Php and phpMyAdmin"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Implemented a monitoring agent that keeps track of the hardware specifications and usage throughout time of host machines and store their data in a database. The monitoring agent is programmed using Bash, and PostgresSQL is used as a database, which would run in a Docker container. Testing was all done on a CentOS 7 virtual machine running on the Google Cloud Platform. Every script was tested manually to ensure that they all run successfully according to their specifications.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": [
+        "Twitter App: Not Started",
+        "JDBC App: In Progress",
+        "Grep App: In Progress"
+      ],
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
+    },
+    {
+      "description": "",
+      "git_url": "/springboot",
+      "name": "Springboot App"
+    },
+    {
+      "description": "",
+      "git_url": "/python_data_anlytics",
+      "name": "Python Data Analytics"
+    },
+    {
+      "description": "",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
+    },
+    {
+      "description": "",
+      "git_url": "/spark",
+      "name": "Spark"
+    },
+    {
+      "description": "",
+      "git_url": "/cloud_devops",
+      "name": "Cloud/DevOps"
+    }
+  ],
+  "name": "Aman Virani",
+  "others": [
+    {
+      "bullets": [
+        "IIT Bombay C Training (2016)",
+        "IIT Bombay C++ Training (2017)",
+        "IIT Bombay Java Training (2018)"
+      ],
+      "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Chess",
+        "gaming",
+        "cricket"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Worked on various data projects involving Linux, Bash, Docker, Postgres, Java, and Spring Boot. Followed the scrum agile methodology and used Git and Git Flow in every project. Assisted others in project-related issues.",
+      "duration": "2022-present",
+      "title": "Software Developer"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Php",
+      "CSS",
+      "NodeJS",
+      "Docker",
+      "MongoDB",
+      "Postman",
+      "Android Studio",
+      "Visual Studio Code",
+      "Visual Studio",
+      "Figma"
+    ],
+    "familiar": [
+      "Styled Components",
+      "WordPress",
+      "Angular",
+      "AWS",
+      "atom"
+    ],
+    "proficient": [
+      "Java",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git",
+      "ReactJS",
+      "JavaScript",
+      "C++",
+      "HTML",
+      "Python",
+      "Firebase",
+      "Slack",
+      "Trello"
+    ]
+  },
+  "summary": "I have a Bachelor's degree in computer application from Uka Tarsadia University. For my further studies I studied web design and development in Conestoga College, and I intend to venture into software development and data engineering. I am centered around problem-solving, and being able to construct solutions that are extendable, scalable, and maintainable. In terms of academics, I have studied operating systems, algorithms, computability, web development, parallel programming, and much more. As for work experience, I currently work at Jarvis as a data engineer, where I work on projects that involve constructing some pipelines to deliver data in a format that would allow for further analysis. Altogether, they make up all the skills and experience that I want to carry forward towards new opportunities. It will make use of my abilities and allow me to further learn new technologies. I am passionate about this journey that I'm on, and I can't wait to see what's up ahead."
+}
