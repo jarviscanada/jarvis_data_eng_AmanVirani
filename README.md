@@ -19,9 +19,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AmanVirani
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AmanVirani/tree/master/core_java)]:
       
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
+  - Twitter App: Not Started
+  - JDBC App: In Progress
+  - Grep App: In Progress
 
 **Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AmanVirani/tree/master/springboot)]: Not Started
 
