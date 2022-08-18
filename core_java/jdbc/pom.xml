@@ -10,8 +10,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 
 <properties>
   <java.verion>8</java.verion>
-  <maven.compiler.target>${java.version}</maven.compiler.target>
-  <maven.compiler.source>${java.version}}</maven.compiler.source>
+  <maven.compiler.target>1.8</maven.compiler.target>
+  <maven.compiler.source>1.8</maven.compiler.source>
 </properties>
 
 <dependencies>
