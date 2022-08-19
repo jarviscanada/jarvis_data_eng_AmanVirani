@@ -3,7 +3,7 @@ This app is used for CRUD process for a RDBMS database in a PSQL instance. The i
 
 # Implementaiton
 ## ER Diagram
-![This is an ER Diagram Image](/assets/ER-Diagram.png)
+![This is an ER Diagram Image](assets/ER-Diagram.png)
 
 ## Design Patterns
 - DAO(The Data Access Object) is a class that CRUD the customer object and DTO is a customer in this project.
