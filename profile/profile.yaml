@@ -55,9 +55,9 @@ jarvis_projects:
   - name: "Core Java Apps"
     git_url: "/core_java"
     description:
-      - "Twitter App: Not Started"
-      - "JDBC App: In Progress"
-      - "Grep App: In Progress"
+      - "Twitter App: In Progress"
+      - "JDBC App: This app is used for CRUD process for a RDBMS database in a PSQL instance. The implementation uses JDBC to connect to the database, customer DAO(Data Access Object) to handle CRUD process, Dbeaver is used to generate ER Diagram, docker container to contain the PSQL instance."
+      - "Grep App: Implemented a grep app in Java. This app searches for a text pattern recursively in a given directory, and store the matched lines to a file. Use slf4j library for log, and regex library to search the pattern. Re-implemented the methods that return a list of all files in a given directory and a list of all strings in a file using Lambda and Stream APIs. Dockerize the grep app by docker and push the image to Docker Hub for easier distribution."
   - name: "Springboot App"
     git_url: "/springboot"
     description: ""
