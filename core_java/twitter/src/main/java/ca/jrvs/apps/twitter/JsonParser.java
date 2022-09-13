@@ -1,7 +1,7 @@
-package ca.jrvs.apps.twitter.example;
+package ca.jrvs.apps.twitter;
 
-import ca.jrvs.apps.twitter.example.dto.Company;
-import com.fasterxml.jackson.annotation.JsonInclude;
+import ca.jrvs.apps.twitter.dto.Company;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
@@ -9,41 +9,36 @@ import java.io.IOException;
 
 public class JsonParser {
   /**
-   * Convert a java object to JSON string
-   * @param object input object
+   * convert java object to JSON string
+   * @param object inout object
+   * @param prettyJson
+   * @param includeNullValues
    * @return JSON String
-   * @throws com.fasterxml.jackson.core.JsonProcessingException
+   * @throws JsonProcessingException
    */
-  public static String toJson(Object object, boolean prettyJson, boolean includeNullValues)
+
+  public static String toJson (Object object,boolean prettyJson,boolean includeNullValues)
       throws JsonProcessingException {
-    ObjectMapper m = new ObjectMapper();
-    if (!includeNullValues) {
-      m.setSerializationInclusion(JsonInclude.Include.NON_NULL);
-    }
-    if (prettyJson) {
+    ObjectMapper m=new ObjectMapper();
+    if (!includeNullValues){
+      m.setSerializationInclusion(Include.NON_NULL);
+    } if (prettyJson){
       m.enable(SerializationFeature.INDENT_OUTPUT);
     }
     return m.writeValueAsString(object);
   }
 
-  /**
-   * Parse JSON string to a object
-   * @param json JSON str
-   * @param clazz object class
-   * @param <T> Type
-   * @return Object
-   * @throws IOException
-   */
-  public static <T> T toObjectFromJson(String json, Class clazz) throws IOException {
+  public static <T> T toObjectFromJSON (String json,Class clazz) throws IOException {
     ObjectMapper m = new ObjectMapper();
-    return (T) m.readValue(json, clazz);
+
+    return (T) m.readValue(json,clazz);
   }
 
   public static void main(String[] args) throws IOException {
-    Company company = toObjectFromJson(companyStr, Company.class);
-    System.out.println(toJson(company, true, false));
-  }
+    Company company= toObjectFromJSON(companyStr,Company.class);
+    System.out.println(toJson(company,true,false));
 
+  }
   public static final String companyStr = "{\n"
       + "   \"symbol\":\"AAPL\",\n"
       + "   \"companyName\":\"Apple Inc.\",\n"
@@ -88,4 +83,5 @@ public class JsonParser {
       + "      }\n"
       + "   ]\n"
       + "}";
+
 }
