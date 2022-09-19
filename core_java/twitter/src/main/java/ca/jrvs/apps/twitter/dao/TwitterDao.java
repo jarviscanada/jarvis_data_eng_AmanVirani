@@ -35,7 +35,7 @@ public class TwitterDao implements CrdDao<Tweet, String> {
   }
 
 
-  private Tweet parseResponseBody(HttpResponse response, Integer expectedStatusCode) {
+  public Tweet parseResponseBody(HttpResponse response, Integer expectedStatusCode) {
     Tweet tweet = null;
     int status = response.getStatusLine().getStatusCode();
     if(status != expectedStatusCode){
