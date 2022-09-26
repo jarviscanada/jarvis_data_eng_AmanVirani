@@ -1,4 +1,7 @@
-<project>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<modelVersion>4.0.0</modelVersion>
   <!--Parent project-->
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -6,7 +9,6 @@
     <version>2.1.3.RELEASE</version>
     <relativePath/>
   </parent>
-  <modelVersion>4.0.0</modelVersion>
   <!--Project name-->
   <groupId>ca.jrvs.apps</groupId>
   <artifactId>twitter</artifactId>
@@ -16,6 +18,8 @@
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.test.skip>true</maven.test.skip>
+    <maven.test.failure.ignore>true</maven.test.failure.ignore>
   </properties>
 
   <!--dependencies-->
@@ -63,4 +67,13 @@
       <version>2.9.4</version>
     </dependency>
   </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
 </project>
