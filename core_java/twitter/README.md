@@ -60,7 +60,7 @@ mvn clean package
   
 # Design
 ## UML diagram
-![diagram](./assets/UML.drawio)
+![diagram](./assets/UMLDiagram.png)
 ## Project Component in details
 - App/main: Twitter app was designed with the MVC architecture, which uses the main() 
 function to call the controller with passed arguments and execute the run() method to run the app.
