@@ -1,5 +1,6 @@
 package ca.jrvs.apps.twitter;
 
+import ca.jrvs.apps.twitter.controller.Controller;
 import ca.jrvs.apps.twitter.controller.TwitterController;
 import ca.jrvs.apps.twitter.dao.CrdDao;
 import ca.jrvs.apps.twitter.dao.TwitterDao;
@@ -16,10 +17,10 @@ public class TwitterCLIApp {
 
   public static final String USAGE = "USAGE: TwitterCLIApp post|show|delete [options]";
 
-  private TwitterController controller;
+  private Controller controller;
 
   @Autowired
-  public TwitterCLIApp(TwitterController controller) {
+  public TwitterCLIApp(Controller controller) {
     this.controller = controller;
   }
 

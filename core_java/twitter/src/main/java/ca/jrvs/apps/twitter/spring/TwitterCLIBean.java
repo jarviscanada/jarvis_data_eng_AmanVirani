@@ -25,7 +25,7 @@ public class TwitterCLIBean {
 
   @Bean
   public TwitterCLIApp twitterCLIApp(Controller controller){
-    return new TwitterCLIApp((TwitterController) controller);
+    return new TwitterCLIApp(controller);
   }
 
   @Bean
