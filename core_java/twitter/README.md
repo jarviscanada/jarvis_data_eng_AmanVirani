@@ -48,7 +48,7 @@ mvn clean package
   -e tokenSecret=YOUR_TOKEN_SECRET \
   ${docker_user}/twitter show tweetID [field1,field2,.....]
   ```
-  -To Delete a tweet
+  - To Delete a tweet
   ```
   docker run --rm \
   -e consumerKey=YOUR_API_KEY \
@@ -62,16 +62,16 @@ mvn clean package
 ## UML diagram
 ![diagram](./assets/UMLDiagram.png)
 ## Project Component in details
-- App/main: Twitter app was designed with the MVC architecture, which uses the main() 
+- **App/main:** Twitter app was designed with the MVC architecture, which uses the main() 
 function to call the controller with passed arguments and execute the run() method to run the app.
 
-- Controller: This layer works with the CLI app and parses the user input given by the main. 
+- **Controller:** This layer works with the CLI app and parses the user input given by the main. 
 Then the controller layer calls the service layer and returns results.
 
-- Service:The service layer controls the business logic of the app and calls the DAO layer 
+- **Service:** The service layer controls the business logic of the app and calls the DAO layer 
 to access the underlying Twitter REST API storage in the app.
 
-- Data Access Object (DAO): The DAO layer interacts with the models of the Twitter app that 
+- **Data Access Object (DAO):** The DAO layer interacts with the models of the Twitter app that 
 were implemented with POJOs. The DAO can post, save, and delete tweets.
 ## Models
 - The twitter app model consists of 3 object models:
